@@ -23,7 +23,7 @@ const Footer = () => {
           <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2020 Dharmsinh Desai University —
             <a
-              href="https://twitter.com/knyttneve"
+              href="https://devfolio.co/duhacks/dashboard"
               class="text-white ml-1"
               rel="noopener noreferrer"
               target="_blank"
