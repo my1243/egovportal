@@ -1,52 +1,15 @@
 import React from "react";
+import Contact from "./Home/Contact";
+import Graduation from "./Home/Graduation";
+import Profile from "./Home/Profile";
 
 const Home = () => {
     return(
         <>
-            <div className="bg-gray-200">
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
-                <h1>ldshgfdgkfnjd</h1>
+            <Profile/>
+            <div className="flex flex-col lg:flex-row gap-12 m-8 md:mx-12 mb-12">
+                <Graduation/>
+                <Contact/>
             </div>
         </>
     )
