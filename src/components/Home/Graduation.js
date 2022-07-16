@@ -4,7 +4,7 @@ const Graduation = () => {
     return(
         <>
         <div className="lg:w-1/2 w-full">
-            <h1 className="my-4 text-4xl font-bold">Graduation<hr className="rounded-full shadow-xl mt-2 pt-2 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]"/></h1>
+            <h1 className="my-4 text-4xl font-bold">Graduation<hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]"/></h1>
             <div className="h-80 font-medium rounded-lg border shadow-xl border-orange-500 px-8 py-4 flex justify-evenly flex-col bg-orange-200 w-full">
                 <div className="flex justify-between">
                     <h2>Relation Type</h2>

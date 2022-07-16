@@ -6,9 +6,7 @@ export default function Navbar() {
 		{ name: "Home", link: "/" },
 		{ name: "Fees Voucher", link: "/fee-voucher" },
 		{ name: "Exam Results", link: "/result" },
-		{ name: "Hall Ticket", link: "/hall-ticket" },
-		{ name: "Information", link: "/information" },
-		{ name: "Moodle", link: "/moodle" },
+		{ name: "Hall Ticket", link: "/hall-ticket" }
 	];
 
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -41,6 +39,9 @@ export default function Navbar() {
 						</li>	
 					))		
 				}
+                <li key="Information" className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7">
+							<Link to={'/information'} className={`py-2 px-3 rounded-md transition-all duration-200 ease-in hover:opacity-75 hover:bg-orange-600 ${location.pathname == '/information' ? 'bg-white text-black' : 'bg-none'}`}>Information</Link>
+						</li>
                     <li className='xl:ml-8 text-md font-medium xl:my-0 my-7'><button class="inline-flex items-center text-gray-600 bg-gray-100 border-0 py-2 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-linear">
               Logout
               <svg

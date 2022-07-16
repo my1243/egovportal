@@ -7,6 +7,9 @@ import Home from './components/Home';
 import ExamResult from './components/Examresult';
 import HallTicket from './components/Hallticket';
 import FeeVoucher from './components/Fees/FeeVoucher';
+import Information from './components/Information';
+import ProgramInfo from './components/ProgramInfo';
+import SearchSub from './components/SearchSub';
 
 const App = () => {
     return(
@@ -27,6 +30,7 @@ const App = () => {
                         <Route path='/result' element={<ExamResult/>} />
                         <Route path='/hall-ticket' element={<HallTicket/>} />
                         <Route path='/fee-voucher' element={<FeeVoucher/>} />
+                        <Route path='/information' element={<SearchSub/>} />
                     </Route>
                 </Routes>
             </Router>
