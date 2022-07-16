@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom';
+import { Link , useLocation } from 'react-router-dom';
 
 export default function Navbar() {
 	let Links = [
@@ -8,14 +8,16 @@ export default function Navbar() {
 		{ name: "Exam Results", link: "/result" },
 		{ name: "Hall Ticket", link: "/hall-ticket" },
 		{ name: "Information", link: "/information" },
-		{ name: "Module", link: "/module" },
+		{ name: "Moodle", link: "/moodle" },
 	];
 
 	const [navbarOpen, setNavbarOpen] = useState(false);
+    const location = useLocation();
 	return (
-		<nav className="shodow-md w-full sticky top-0 left-0 z-50 bg-orange-500 border-b-2">
+		<nav className="shodow-md w-full sticky top-0 left-0 z-50 bg-gradient-to-r from-[#f4510b] to-[#e9d022] border-b-2">
 			<div className="md:flex items-center justify-between py-4 md:px-10 px-4">
-            <Link to={'/'} class="flex title-font font-medium items-center text-gray-900">
+            {console.log(location.pathname)}
+            <Link to={'/'} class="flex title-font font-bold items-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -31,15 +33,15 @@ export default function Navbar() {
             <span class="ml-3 text-xl">Student Portal</span>
           </Link>
 				
-				<ul className={'lg:flex lg:items-center bg-orange-400 lg:bg-orange-500 lg:pb-0 pb-12 absolute lg:static lg:z-auto z[-1] left-0 top-[72px] w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-200 ease-in' + (navbarOpen ? " block" : " hidden" )}>
+				<ul className={'bg-orange-400 xl:bg-transparent xl:flex xl:items-center h-screen xl:h-auto xl:pb-0 pb-12 absolute xl:static xl:z-auto z[-1] left-0 top-[72px] w-full xl:w-auto xl:pl-0 pl-9 transition-all duration-200 ease-in' + (navbarOpen ? " block" : " hidden" )}>
                 {
 					Links.map((link) => (
-						<li key={link.name} className="lg:ml-8 text-sm font-medium lg:my-0 my-7">
-							<Link to={link.link} className="hover:opacity-75">{link.name}</Link>
+						<li key={link.name} className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7">
+							<Link to={link.link} className={`py-2 px-3 rounded-md transition-all duration-200 ease-in hover:opacity-75 hover:bg-orange-600 ${link.link == location.pathname ? 'bg-white text-black' : 'bg-none'}`}>{link.name}</Link>
 						</li>	
 					))		
 				}
-                    <li className='lg:ml-8 text-sm font-medium lg:my-0 my-7'><button class="inline-flex items-center text-gray-600 bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                    <li className='xl:ml-8 text-md font-medium xl:my-0 my-7'><button class="inline-flex items-center text-gray-600 bg-gray-100 border-0 py-2 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-linear">
               Logout
               <svg
                 fill="none"
@@ -56,7 +58,7 @@ export default function Navbar() {
 				</ul>
 
 
-				<div onClick={() => setNavbarOpen(!navbarOpen)} className="absolute right-8 top-6 cursor-pointer transition-all duration-500 ease-in lg:hidden">
+				<div onClick={() => setNavbarOpen(!navbarOpen)} className="absolute right-8 top-6 cursor-pointer transition-all duration-500 ease-in xl:hidden">
 					{
 						navbarOpen
 							?
@@ -72,4 +74,4 @@ export default function Navbar() {
 			</div>
 		</nav>
 	)
-}
+}   
