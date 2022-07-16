@@ -6,9 +6,13 @@ export default function Navbar() {
 		{ name: "Home", link: "/" },
 		{ name: "Fees Voucher", link: "/fee-voucher" },
 		{ name: "Exam Results", link: "/result" },
+<<<<<<< HEAD
+		{ name: "Hall Ticket", link: "/hall-ticket" }
+=======
 		{ name: "Hall Ticket", link: "/hall-ticket" },
 
 		{ name: "Moodle", link: "/moodle" },
+>>>>>>> 857fb26ed0217d5b43ee5834f8e40ce576db77a3
 	];
 
 	const [navbarOpen, setNavbarOpen] = useState(false);
