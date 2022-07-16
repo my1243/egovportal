@@ -42,11 +42,11 @@ export default function Navbar() {
 						))
 					}
 					<li key={"information"} className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7 dropdown">
-						<Link to={"/information"} className={`py-2 px-3 rounded-md transition-all dropbtn duration-200 ease-in hover:opacity-75 hover:bg-orange-600 ${location.pathname == "/information" ? 'bg-white text-black' : 'bg-none'}`}>Information</Link>
+						<Link to={"/information"} className={`py-2 px-3 rounded-md transition-all dropbtn duration-200 ease-in hover:opacity-75 hover:bg-orange-600 ${location.pathname == "/information" ? 'bg-white text-black' : 'bg-none'}`}>Information <i class="fa-solid fa-caret-down ml-1"></i></Link>
 					<div class="dropdown-content">
-						<a href="#">Program Information</a>
-						<a href="#">Search Subjects</a>
-						<a href="#">My Subjects</a>
+						<Link to="/program-information">Program Information</Link>
+						<Link to="/serach-subject">Search Subjects</Link>
+						<Link to="/my-subject">My Subjects</Link>
 					</div>
 					</li>
 
