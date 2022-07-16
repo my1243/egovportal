@@ -74,9 +74,11 @@ export default function Navbar() {
               Information <i class="fa-solid fa-caret-down ml-1"></i>
             </Link>
             <div class="dropdown-content">
-              <Link to="/program-information">Program Information</Link>
-              <Link to="/serach-subject">Search Subjects</Link>
-              <Link to="/my-subject">My Subjects</Link>
+              <Link to="/information/program-information">
+                Program Information
+              </Link>
+              <Link to="/information/search-subject">Search Subjects</Link>
+              <Link to="/information/my-subject">My Subjects</Link>
             </div>
           </li>
 
