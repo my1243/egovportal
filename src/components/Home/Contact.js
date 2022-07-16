@@ -4,8 +4,8 @@ const Contact = () => {
     return(
         <>
         <div className="lg:w-1/2 w-full">
-            <h1 className="my-4 text-4xl font-bold">Contact Information</h1>
-            <div className="h-80 font-medium rounded-lg border-4 shadow-xl border-orange-500 px-8 py-4 flex justify-evenly flex-col bg-orange-200">
+            <h1 className="my-4 text-4xl font-bold">Contact Information<hr className="rounded-full shadow-xl mt-2 pt-2 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]"/></h1>
+            <div className="h-80 font-medium rounded-lg border shadow-xl border-orange-500 px-8 py-4 flex justify-evenly flex-col bg-orange-200">
                 <div className="flex justify-between">
                     <h2>Address 1</h2>
                     <h4>27</h4>

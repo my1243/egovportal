@@ -5,8 +5,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import ExamResult from './components/Examresult';
-import Result from './components/cards/Result';
 import HallTicket from './components/Hallticket';
+import FeeVoucher from './components/Fees/FeeVoucher';
 
 const App = () => {
     return(
@@ -26,6 +26,7 @@ const App = () => {
                         <Route path='/' element={<Home/>} />
                         <Route path='/result' element={<ExamResult/>} />
                         <Route path='/hall-ticket' element={<HallTicket/>} />
+                        <Route path='/fee-voucher' element={<FeeVoucher/>} />
                     </Route>
                 </Routes>
             </Router>
