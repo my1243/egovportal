@@ -93,24 +93,10 @@ const Voucher_card = () => {
 
       <div className="btn-voucherDiv px-sm-6 px-2 pb-sm-6 pb-2">
         <button className="p-2 mx-2 bg-orange-500 text-white font-medium rounded-md flex gap-x-2 items-center">
-          <h1>Regenerate <i class="fa-solid fa-pen-to-square"></i></h1>
-          <svg
-            width="16px"
-            height="16px"
-            viewBox="0 0 16 16"
-            xmlns="http://www.w3.org/2000/svg"
-            version="1.1"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-          >
-            <path d="m3.25 13.25h9m-8.5-6.5 4 3.5 4-3.5m-4-5v8.5" />
-          </svg>
+          Regenerate <i class="fa-solid fa-location-arrow"></i>
         </button>
         <button className="p-2 bg-orange-500 text-white font-medium rounded-md flex gap-x-2 items-center">
-          <h1>Print Voucher</h1>
+          Print Voucher
           <i class="fa-solid fa-download"></i>
         </button>
       </div>

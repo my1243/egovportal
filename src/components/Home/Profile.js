@@ -1,11 +1,11 @@
 import React from "react";
 
 const Profile = () => {
-    return(
+    return (
         <>
-            <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">Student Profile<hr className="rounded-full shadow-xl mt-2 pt-2 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]"/></h1>
-            <div className="text-lg flex flex-col lg:flex-row p-4 justify-between items-center h-[80vh] mx-8 md:mx-12 mb-12 font-medium rounded-lg shadow-xl border border-orange-600 bg-orange-200">
-                <div className="border-b-2 lg:border-r-2 lg:border-b-0 border-orange-600 flex justify-between flex-col h-full gap-2 py-4 md:p-8 w-full lg:w-2/3">
+            <h1 className="mx-2 md:mx-12 m-4 lg:text-4xl text-xl font-bold pb-2">Student Profile<hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" /></h1>
+            <div className="text-lg mx-2 text-[12px] flex flex-col lg:flex-row p-4 justify-between items-center lg:h-[80vh] h-min-[80vh] md:mx-12 mb-12 font-medium rounded-lg shadow-xl border border-orange-600 bg-orange-200">
+                <div className="lg:border-r-2 lg:border-b-0 border-orange-600 flex justify-between flex-col h-full gap-2 lg:py-4 py-[5px] md:p-8 w-full lg:w-2/3">
                     <div className="flex justify-between">
                         <h2>DDU Reporting Date</h2>
                         <h4>10/11/2020</h4>
@@ -51,7 +51,7 @@ const Profile = () => {
                         <h4>0</h4>
                     </div>
                 </div>
-                <div className="flex justify-between flex-col h-full gap-2 py-4 md:p-8 w-full lg:w-2/3">
+                <div className="flex justify-between flex-col h-full gap-2 lg:py-4 pb-[5px] md:p-8 w-full lg:w-2/3">
                     <div className="flex justify-between">
                         <h2>Enrollemnt Year</h2>
                         <h4>2020</h4>
@@ -105,8 +105,8 @@ const Profile = () => {
                         <h4>Open</h4>
                     </div>
                 </div>
-                <div className="order-first lg:order-last flex justify-between items-end flex-col h-full p-8 w-1/5">
-                    <img className="rounded-full shadow-xl" src="../images/default-user.png" alt="avatar"/>
+                <div className="order-first lg:order-last lg:block hidden flex justify-between items-end flex-col h-full p-8 w-1/5">
+                    <img className="rounded-full shadow-xl" src="../images/default-user.png" alt="avatar" />
                 </div>
             </div>
         </>
