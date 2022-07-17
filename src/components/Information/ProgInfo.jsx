@@ -4,12 +4,12 @@ const ProgInfo = () => {
   return (
     <>
       <div>
-        <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">
+        <h1 className="mx-2 md:mx-12 m-4 font-bold pb-2">
           Program Info
           <hr className="rounded-full shadow-xl mt-2 pt-1 justify-around max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" />
         </h1>
-        <div className="flex flex-col md:flex-row bg-orange-200 md:divide-x-2 p-2 divide-orange-500 rounded-md border border-orange-500 mx-6 md:mx-12 mb-12 min-h-60">
-          <div className="flex flex-col justify-evenly w-full md:w-1/2 px-4 pt-4 md:p-4">
+        <div className="res-text flex flex-col md:flex-row bg-orange-200 md:divide-x-2 p-4 divide-orange-500 rounded-md border border-orange-500 font-medium mx-2 md:mx-12 mb-12 min-h-60">
+          <div className="flex flex-col justify-evenly w-full md:w-1/2 md:p-4">
             <div className="flex justify-between">
               <h2>Institute Information</h2>
               <h2>Faculty of technology</h2>
@@ -36,7 +36,7 @@ const ProgInfo = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-evenly w-full md:w-1/2 px-4 pb-4 md:p-4">
+          <div className="flex flex-col justify-evenly w-full md:w-1/2 md:p-4">
             <div className="flex justify-between">
               <h2 >No. of sem</h2>
               <h2 >8</h2>

@@ -92,7 +92,7 @@ const Contact = () => {
             <div>
               <div className="mt-16 bg-orange-200 border-orange-500 border-2 max-w-[36rem] mx-auto rounded-lg shadow-2xl">
                 <div className="flex flex-row items-center justify-between bg-orange-500">
-                  <h1 className="font-bold text-2xl m-2">
+                  <h1 className="mx-2 md:mx-12 m-4 font-bold pb-2">
                     Local Contact Information
                   </h1>
                   <button
@@ -106,7 +106,7 @@ const Contact = () => {
                 </div>
                 <form method="POST" className="m-4">
                   <div className="mb-4 flex flex-col items-start sm:flex-row sm:items-center justify-start">
-                    <label className="text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
+                    <label className="res-text text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
                       House No
                     </label>
                     <input
@@ -118,7 +118,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-4 flex flex-col items-start sm:flex-row sm:items-center justify-start">
-                    <label className="text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
+                    <label className="res-text text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
                       Address 2
                     </label>
                     <input
@@ -130,7 +130,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-4 flex flex-col items-start sm:flex-row sm:items-center justify-start">
-                    <label className="text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
+                    <label className="res-text text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
                       Address 3
                     </label>
                     <input
@@ -142,7 +142,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-4 flex flex-col items-start sm:flex-row sm:items-center justify-start">
-                    <label className="text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
+                    <label className="res-text text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
                       City
                     </label>
                     <input
@@ -154,7 +154,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-4 flex flex-col items-start sm:flex-row sm:items-center justify-start">
-                    <label className="text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
+                    <label className="res-text text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
                       Pincode
                     </label>
                     <input
@@ -167,7 +167,7 @@ const Contact = () => {
                   </div>
                   <div className="flex justify-between gap-x-4">
                     <div className="mb-4 w-1/2 flex flex-col items-start justify-start">
-                      <label className="text-lg w-full mb-0.5 sm:mb-0 text-left">
+                      <label className="res-text text-lg w-full mb-0.5 sm:mb-0 text-left">
                         State
                       </label>
                       <input
@@ -179,7 +179,7 @@ const Contact = () => {
                       />
                     </div>
                     <div className="mb-4 w-1/2 flex flex-col items-start justify-start">
-                      <label className="text-lg w-full mb-0.5 sm:mb-0 text-left">
+                      <label className="res-text text-lg w-full mb-0.5 sm:mb-0 text-left">
                         Country
                       </label>
                       <input
@@ -193,7 +193,7 @@ const Contact = () => {
                   </div>
                   <div className="flex justify-between gap-x-4">
                     <div className="mb-4 w-1/2 flex flex-col items-start justify-start">
-                      <label className="text-lg w-full mb-0.5 sm:mb-0 text-left">
+                      <label className="res-text text-lg w-full mb-0.5 sm:mb-0 text-left">
                         Phone No.
                       </label>
                       <input
@@ -205,7 +205,7 @@ const Contact = () => {
                       />
                     </div>
                     <div className="mb-4 w-1/2 flex flex-col items-start justify-start">
-                      <label className="text-lg w-full mb-0.5 sm:mb-0 text-left">
+                      <label className="res-text text-lg w-full mb-0.5 sm:mb-0 text-left">
                         Mobile No.
                       </label>
                       <input
@@ -218,7 +218,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="mb-4 flex flex-col items-start sm:flex-row sm:items-center justify-start">
-                    <label className="text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
+                    <label className="res-text text-lg w-full sm:w-1/3 mb-0.5 sm:mb-0 text-left">
                       Email
                     </label>
                     <input
