@@ -23,19 +23,32 @@ const Result = () => {
         <div className="flex justify-between">
           <h2>External Result</h2>
           <h4>
-            <a href="Result_sem5.pdf" download="Result_sem5.pdf" className="cursor-pointer underline text-blue-800 font-medium">view result</a>
+            <a
+              href="Result_sem5.pdf"
+              download="Result_sem5.pdf"
+              className="cursor-pointer underline text-blue-800 font-medium"
+            >
+              view result
+            </a>
           </h4>
         </div>
         <div className="flex justify-between">
           <h2>Internal Result</h2>
           <h4>
-            <a className="cursor-pointer underline text-blue-800 font-medium">view result</a>
+            <a className="cursor-pointer underline text-blue-800 font-medium">
+              view result
+            </a>
           </h4>
         </div>
         <div className="flex justify-between items-center">
           <h1>Provisional Marksheet</h1>
           <button className="p-2 bg-[#e64b09] hover:text-orange-600 hover:bg-white ibs  text-white font-medium rounded-md flex gap-x-2 items-center transition-colors duration-300 ease-linear">
-            <h1>Download</h1>
+            <a
+              href="ProvisionalMarksheet.pdf"
+              download="ProvisionalMarksheet.pdf"
+            >
+              Download
+            </a>
             <svg
               width="16px"
               height="16px"

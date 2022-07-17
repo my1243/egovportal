@@ -35,7 +35,11 @@ const Ticket = () => {
         <div className="flex justify-between">
           <h2>View Hall Ticket</h2>
           <h4>
-            <a className="cursor-pointer underline text-blue-800 font-medium">
+            <a
+              href="hallticketsem.pdf"
+              target={"__blank"}
+              className="cursor-pointer underline text-blue-800 font-medium"
+            >
               view hallticket
             </a>
           </h4>
@@ -43,7 +47,9 @@ const Ticket = () => {
         <div className="flex justify-between items-center">
           <h1>Hall Ticket</h1>
           <button className="p-2 bg-[#e64b09] hover:text-orange-600 hover:bg-white ibs transition-colors duration-300 ease-in text-white font-medium rounded-md flex gap-x-2 items-center">
-            <h1>Download</h1>
+            <a href="hallticketsem.pdf" download="hallticketsem.pdf">
+              Download
+            </a>
             <svg
               width="16px"
               height="16px"
