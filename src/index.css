@@ -35,6 +35,13 @@
   }
   
   @media (max-width: 320px){
+
+    .table_I td{
+      height: 60px;
+    }
+    
+    
+
     .info{
       margin-left: -20px;
     }
@@ -155,7 +162,44 @@
 
 
 
-
+  @media (max-width: 768px){
+    .table_I{
+      height: 100%;
+    }
+    .table_I thead{
+      display: none;
+    }
+    .table_I, .table_I tbody, .table_I tr, .table_I td{
+      display: block;
+      width: 100%;
+    }
+    .table_I tr{
+      margin-bottom: 15px;
+    }
+    .table_I tbody tr td{
+      text-align: right;
+      padding-right: 20px;
+      padding-left: 50%;
+      position: relative;
+    }
+    .table_I td:before{
+  content: attr(data-label);
+  position: absolute;
+  left: 0;
+  width: 50%;
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: left;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
 
 
   

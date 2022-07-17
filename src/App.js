@@ -10,6 +10,8 @@ import FeeVoucher from './components/Fees/FeeVoucher';
 import Information from './components/Information';
 import ProgramInfo from './components/ProgramInfo';
 import SearchSub from './components/SearchSub';
+import Internal from './components/Internal';
+import General from './components/Moodle/General';
 
 const App = () => {
     return(
@@ -31,6 +33,8 @@ const App = () => {
                         <Route path='/hall-ticket' element={<HallTicket/>} />
                         <Route path='/fee-voucher' element={<FeeVoucher/>} />
                         <Route path='/information' element={<SearchSub/>} />
+                        <Route path='/internal' element={<Internal/>} />
+                        <Route path='/moodle' element={<General/>} />
                     </Route>
                 </Routes>
             </Router>

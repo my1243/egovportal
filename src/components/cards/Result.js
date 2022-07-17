@@ -23,7 +23,7 @@ const Result = () => {
         <div className="flex justify-between">
           <h2>External Result</h2>
           <h4>
-            <a className="cursor-pointer underline text-blue-800 font-medium">view result</a>
+            <a href="Result_sem5.pdf" download="Result_sem5.pdf" className="cursor-pointer underline text-blue-800 font-medium">view result</a>
           </h4>
         </div>
         <div className="flex justify-between">
