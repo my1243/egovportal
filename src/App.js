@@ -41,7 +41,6 @@ const App = () => {
             />
             <Route path="/information/search-subject" element={<SearchSub />} />
             <Route path="/information/my-subject" element={<MySub />} />
-            <Route path="/internal" element={<Internal />} />
             <Route path="/moodle" element={<General />} />
           </Route>
         </Routes>

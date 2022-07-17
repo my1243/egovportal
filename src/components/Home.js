@@ -8,13 +8,14 @@ const Home = () => {
   return (
     <>
       <Profile />
-      <div className="flex flex-col lg:flex-row gap-12 mx-2 lg:mx-12 mb-12">
+      <div className="res-text flex flex-col lg:flex-row gap-12 mx-2 md:mx-12 mb-12">
         <Graduation />
         <Contact />
       </div>
       <Academic />
+
     </>
-  );
-};
+  )
+}
 
 export default Home;

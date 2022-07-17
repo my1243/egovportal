@@ -3,7 +3,7 @@ import React from "react";
 const Result = () => {
   return (
     <>
-      <div className="h-72 font-medium rounded-lg border shadow-xl border-orange-500 px-8 py-4 flex justify-evenly flex-col bg-orange-200">
+      <div className="res-text h-72 font-medium rounded-lg border shadow-xl border-orange-500 p-4 flex justify-evenly flex-col bg-orange-200">
         <div className="flex justify-between">
           <h2>Batch Year</h2>
           <h4>2020</h4>
@@ -41,14 +41,9 @@ const Result = () => {
           </h4>
         </div>
         <div className="flex justify-between items-center">
-          <h1>Provisional Marksheet</h1>
+          Provisional Marksheet
           <button className="p-2 bg-[#e64b09] hover:text-orange-600 hover:bg-white ibs  text-white font-medium rounded-md flex gap-x-2 items-center transition-colors duration-300 ease-linear">
-            <a
-              href="ProvisionalMarksheet.pdf"
-              download="ProvisionalMarksheet.pdf"
-            >
-              Download
-            </a>
+            Download
             <svg
               width="16px"
               height="16px"

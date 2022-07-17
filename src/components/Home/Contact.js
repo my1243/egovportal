@@ -84,7 +84,7 @@ const Contact = () => {
               class="hidden sm:inline-block sm:align-middle sm:"
               aria-hidden="true"
             >
-              ​
+
             </span>
 
             {/* modal content */}
