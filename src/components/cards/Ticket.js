@@ -3,7 +3,7 @@ import React from "react";
 const Ticket = () => {
   return (
     <>
-      <div className="h-80 font-medium rounded-lg border shadow-xl border-orange-500 px-8 py-4 flex justify-evenly flex-col bg-orange-200">
+      <div className="res-text h-72 font-medium rounded-lg border shadow-xl border-orange-500 p-4 flex justify-evenly flex-col bg-orange-200">
         <div className="flex justify-between">
           <h2>Exam Code</h2>
           <h4>-</h4>
@@ -41,9 +41,9 @@ const Ticket = () => {
           </h4>
         </div>
         <div className="flex justify-between items-center">
-          <h1>Hall Ticket</h1>
+          Hall Ticket
           <button className="p-2 bg-[#e64b09] hover:text-orange-600 hover:bg-white ibs transition-colors duration-300 ease-in text-white font-medium rounded-md flex gap-x-2 items-center">
-            <h1>Download</h1>
+            Download
             <svg
               width="16px"
               height="16px"
