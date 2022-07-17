@@ -1,7 +1,12 @@
 import React from "react";
+import MySub from "./Information/MySub";
 
 const MySubjects = () => {
-  return <></>;
+  return (
+    <>
+      <MySub />
+    </>
+  );
 };
 
 export default MySubjects;
