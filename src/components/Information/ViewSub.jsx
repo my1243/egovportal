@@ -6,10 +6,10 @@ const ViewSub = () => {
     return (
         <>
             <div>
-            <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">
-          View Subjects
-          <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" />
-        </h1>
+                <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">
+                    View Subjects
+                    <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" />
+                </h1>
                 <div className="flex flex-row bg-orange-100 border border-orange-500 rounded-md mx-12 mb-12 md:h-72 vi">
                     <div className="flex flex-row gap-28 mt-10 mb-10">
                         <div className="font-medium ml-9">
@@ -29,11 +29,10 @@ const ViewSub = () => {
                                 <button className="bg-orange-400 p-2  rounded-lg w-24  mt-10">Search</button>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
+
         </>
     )
 }
