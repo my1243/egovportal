@@ -225,16 +225,207 @@ const MySub = () => {
             </tr>
             <tr className="bg-orange-300">
               <td data-label="SC" className="text-center border border-white">
-                AF-410
+                AF-709
               </td>
               <td
                 data-label="ALIAS"
                 className="text-center border border-white"
               >
-                FMA
+                CCN
               </td>
               <td data-label="PRO" className="text-center border border-white">
-                BT
+                CD
+              </td>
+              <td data-label="RS" className="text-center border border-white">
+                D
+              </td>
+              <td data-label="SESS" className="text-center border border-white">
+                3
+              </td>
+              <td data-label="EL" className="text-center border border-white">
+                NO
+              </td>
+              <td data-label="CRE" className="text-center border border-white">
+                7
+              </td>
+              <td
+                data-label="TMP 1"
+                className="text-center border border-white"
+              >
+                23
+              </td>
+              <td
+                data-label="TMP 2"
+                className="text-center border border-white"
+              >
+                12
+              </td>
+              <td data-label="TT" className="text-center border border-white">
+                60
+              </td>
+              <td
+                data-label="SMP 1"
+                className="text-center border border-white"
+              >
+                14
+              </td>
+              <td
+                data-label="SMP 2"
+                className="text-center border border-white"
+              >
+                16
+              </td>
+              <td data-label="ST" className="text-center border border-white">
+                40
+              </td>
+              <td
+                data-label="PMP 1"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td
+                data-label="PMP 2"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td data-label="PT" className="text-center border border-white">
+                --
+              </td>
+              <td
+                data-label="TWMP 1"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td
+                data-label="TWMP 2"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td data-label="TWT" className="text-center border border-white">
+                --
+              </td>
+              <td data-label="TMP" className="text-center border border-white">
+                40
+              </td>
+              <td data-label="TM" className="text-center border border-white">
+                100
+              </td>
+              <td data-label="SYLL" className="text-center border border-white">
+                ---
+              </td>
+            </tr>
+            <tr className="bg-orange-100">
+              <td data-label="SC" className="text-center border border-white">
+                AF-602
+              </td>
+
+              <td
+                data-label="ALIAS"
+                className="text-center border border-white"
+              >
+                MAPI
+              </td>
+              <td data-label="PRO" className="text-center border border-white">
+                KL
+              </td>
+              <td data-label="RS" className="text-center border border-white">
+                S
+              </td>
+              <td data-label="SESS" className="text-center border border-white">
+                4
+              </td>
+              <td data-label="EL" className="text-center border border-white">
+                NO
+              </td>
+              <td data-label="CRE" className="text-center border border-white">
+                6
+              </td>
+              <td
+                data-label="TMP 1"
+                className="text-center border border-white"
+              >
+                28
+              </td>
+              <td
+                data-label="TMP 2"
+                className="text-center border border-white"
+              >
+                14
+              </td>
+              <td data-label="TT" className="text-center border border-white">
+                60
+              </td>
+              <td
+                data-label="SMP 1"
+                className="text-center border border-white"
+              >
+                13
+              </td>
+              <td
+                data-label="SMP 2"
+                className="text-center border border-white"
+              >
+                16
+              </td>
+              <td data-label="ST" className="text-center border border-white">
+                40
+              </td>
+              <td
+                data-label="PMP 1"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td
+                data-label="PMP 2"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td data-label="PT" className="text-center border border-white">
+                --
+              </td>
+              <td
+                data-label="TWMP 1"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td
+                data-label="TWMP 2"
+                className="text-center border border-white"
+              >
+                --
+              </td>
+              <td data-label="TWT" className="text-center border border-white">
+                --
+              </td>
+              <td data-label="TMP" className="text-center border border-white">
+                45
+              </td>
+              <td data-label="TM" className="text-center border border-white">
+                100
+              </td>
+              <td data-label="SYLL" className="text-center border border-white">
+                ---
+              </td>
+            </tr>
+            <tr className="bg-orange-300">
+              <td data-label="SC" className="text-center border border-white">
+                AF-290
+              </td>
+              <td
+                data-label="ALIAS"
+                className="text-center border border-white"
+              >
+                DSA
+              </td>
+              <td data-label="PRO" className="text-center border border-white">
+                AD
               </td>
               <td data-label="RS" className="text-center border border-white">
                 A
@@ -320,17 +511,17 @@ const MySub = () => {
             </tr>
             <tr className="bg-orange-100">
               <td data-label="SC" className="text-center border border-white">
-                AF-410
+                AF-305
               </td>
 
               <td
                 data-label="ALIAS"
                 className="text-center border border-white"
               >
-                FMA
+                CO
               </td>
               <td data-label="PRO" className="text-center border border-white">
-                BT
+                BL
               </td>
               <td data-label="RS" className="text-center border border-white">
                 A
