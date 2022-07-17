@@ -118,15 +118,15 @@
   }
 
   .res-text {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .res-text-th {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .res-text-td {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .profile-right,
@@ -141,15 +141,15 @@
   }
 
   .res-text {
-    font-size: .9rem;
+    font-size: .9rem !important;
   }
 
   .res-text-td {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .res-text-th {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .profile-right,
@@ -161,11 +161,11 @@
 @media (max-width:1024px) {
 
   .res-text-td {
-    font-size: .9rem;
+    font-size: .9rem !important;
   }
 
   .res-text-th {
-    font-size: .8rem;
+    font-size: .8rem !important;
   }
 
   .profile-right,
@@ -188,15 +188,15 @@
   }
 
   .res-text {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .res-text-td {
-    font-size: .8rem;
+    font-size: .8rem !important;
   }
 
   .res-text-th {
-    font-size: .8rem;
+    font-size: .8rem !important;
   }
 
 }
@@ -292,7 +292,7 @@
   }
 
   .res-text {
-    font-size: .9rem;
+    font-size: .9rem !important;
   }
 }
 
@@ -302,7 +302,7 @@
   }
 
   .res-text {
-    font-size: .8rem;
+    font-size: .8rem !important;
   }
 }
 
@@ -318,7 +318,7 @@
   }
 
   .res-text {
-    font-size: .7rem;
+    font-size: .7rem !important;
   }
 }
 
