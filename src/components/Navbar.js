@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
+
+
 export default function Navbar() {
   let Links = [
     { name: "Home", link: "/" },
@@ -43,7 +46,7 @@ export default function Navbar() {
           }
         >
           {Links.map((link) => (
-            <li
+            <li onClick={() => {setNavbarOpen(!navbarOpen)}}
               key={link.name}
               className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7"
             >

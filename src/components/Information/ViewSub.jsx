@@ -49,54 +49,98 @@ const ViewSub = () => {
       {/* Table view of result of search*/}
 
       <div>
-        <div className="flex flex-col md:flex-row rounded-lg border border-orange-500 bg-orange-200 shadow-md mx-12 mt-20">
-          <div className="flex flex-col justify-evenly mt-10 mx-12 w-1/2">
-            <div className="flex justify-between">
-              <h2>Subject code</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Name</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Alias</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Program</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Rec Status</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Session No.</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Elective</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>Credit</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>ThMinPass1</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>ThMinPass2</h2>
-              <h2>Info</h2>
-            </div>
-            <div className="flex justify-between">
-              <h2>ThTotal</h2>
-              <h2>Info</h2>
-            </div>
-          </div>
-          <div className="flex flex-col w-1/2"></div>
+        
+        <div className="lg:mr-12 lg:ml-12 sm:mx-4 mb-12">
+          <table className="table_a rounded-lg overflow-hidden table-auto w-full h-60 shadow-md">
+            <thead className="bg-orange-500 h-12 text-white">
+              <tr>
+                <th className="border border-white">Subject code</th>
+                <th className="border border-white">Name</th>
+                <th className="border border-white">Alias</th>
+                <th className="border border-white">Program</th>
+                <th className="border border-white">Rec status</th>
+                <th className="border border-white">Session no.</th>
+                <th className="border border-white">Elective</th>
+                <th className="border border-white">Credit</th>
+                <th className="border border-white">ThMinPass1</th>
+                <th className="border border-white">ThMinPass2</th>
+                <th className="border border-white">ThTotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-orange-100">
+                <td data-label="Subject code" className="text-center border border-white">IT-709</td>
+                <td data-label="Name" className="text-center border border-white">DBMS</td>
+                <td data-label="Alias" className="text-center border border-white">BSNL</td>
+                <td data-label="Program" className="text-center border border-white">B.Tech</td>
+                <td data-label="Rec status" className="text-center border border-white">hello</td>
+                <td data-label="Session No." className="text-center border border-white">1</td>
+                <td data-label="Elective" className="text-center border border-white">AMP</td>
+                <td data-label="Credit" className="text-center border border-white">5.5</td>
+                <td data-label="ThMinPass1" className="text-center border border-white">34</td>
+                <td data-label="ThMinPass2" className="text-center border border-white">34</td>
+                <td data-label="ThTotal" className="text-center border border-white">70</td>
+              </tr>
+              <tr className="bg-orange-300">
+
+              <td data-label="Subject code" className="text-center border border-white">IT-709</td>
+                                <td data-label="Name" className="text-center border border-white">DBMS</td>
+                                <td data-label="Alias" className="text-center border border-white">BSNL</td>
+                                <td data-label="Program" className="text-center border border-white">B.Tech</td>
+                                <td data-label="Rec status" className="text-center border border-white">hello</td>
+                                <td data-label="Session No." className="text-center border border-white">1</td>
+                                <td data-label="Elective" className="text-center border border-white">AMP</td>
+                                <td data-label="Credit" className="text-center border border-white">5.5</td>
+                                <td data-label="ThMinPass1" className="text-center border border-white">34</td>
+                                <td data-label="ThMinPass2" className="text-center border border-white">34</td>
+                                <td data-label="ThTotal" className="text-center border border-white">70</td>
+              </tr>
+              <tr className="bg-orange-100">
+
+
+              <td data-label="Subject code" className="text-center border border-white">IT-709</td>
+                                <td data-label="Name" className="text-center border border-white">DBMS</td>
+                                <td data-label="Alias" className="text-center border border-white">BSNL</td>
+                                <td data-label="Program" className="text-center border border-white">B.Tech</td>
+                                <td data-label="Rec status" className="text-center border border-white">hello</td>
+                                <td data-label="Session No." className="text-center border border-white">1</td>
+                                <td data-label="Elective" className="text-center border border-white">AMP</td>
+                                <td data-label="Credit" className="text-center border border-white">5.5</td>
+                                <td data-label="ThMinPass1" className="text-center border border-white">34</td>
+                                <td data-label="ThMinPass2" className="text-center border border-white">34</td>
+                                <td data-label="ThTotal" className="text-center border border-white">70</td>
+              </tr>
+              <tr className="bg-orange-300">
+
+              <td data-label="Subject code" className="text-center border border-white">IT-709</td>
+                                <td data-label="Name" className="text-center border border-white">DBMS</td>
+                                <td data-label="Alias" className="text-center border border-white">BSNL</td>
+                                <td data-label="Program" className="text-center border border-white">B.Tech</td>
+                                <td data-label="Rec status" className="text-center border border-white">hello</td>
+                                <td data-label="Session No." className="text-center border border-white">1</td>
+                                <td data-label="Elective" className="text-center border border-white">AMP</td>
+                                <td data-label="Credit" className="text-center border border-white">5.5</td>
+                                <td data-label="ThMinPass1" className="text-center border border-white">34</td>
+                                <td data-label="ThMinPass2" className="text-center border border-white">34</td>
+                                <td data-label="ThTotal" className="text-center border border-white">70</td>
+              </tr>
+
+              <tr className="bg-orange-100">
+
+              <td data-label="Subject code" className="text-center border border-white">IT-709</td>
+                                <td data-label="Name" className="text-center border border-white">DBMS</td>
+                                <td data-label="Alias" className="text-center border border-white">BSNL</td>
+                                <td data-label="Program" className="text-center border border-white">B.Tech</td>
+                                <td data-label="Rec status" className="text-center border border-white">hello</td>
+                                <td data-label="Session No." className="text-center border border-white">1</td>
+                                <td data-label="Elective" className="text-center border border-white">AMP</td>
+                                <td data-label="Credit" className="text-center border border-white">5.5</td>
+                                <td data-label="ThMinPass1" className="text-center border border-white">34</td>
+                                <td data-label="ThMinPass2" className="text-center border border-white">34</td>
+                                <td data-label="ThTotal" className="text-center border border-white">70</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </>

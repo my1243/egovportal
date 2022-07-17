@@ -33,15 +33,17 @@
   text-align: left;
     }
   }
+
+ 
+
   
   @media (max-width: 320px){
+
+    
 
     .table_I td{
       height: 60px;
     }
-    
-    
-
     .info{
       margin-left: -20px;
     }
