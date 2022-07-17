@@ -43,7 +43,12 @@ const Result = () => {
         <div className="flex justify-between items-center">
           Provisional Marksheet
           <button className="p-2 bg-[#e64b09] hover:text-orange-600 hover:bg-white ibs  text-white font-medium rounded-md flex gap-x-2 items-center transition-colors duration-300 ease-linear">
-            Download
+            <a
+              href="ProvisionalMarksheet.pdf"
+              download="ProvisionalMarksheet.pdf"
+            >
+              Download
+            </a>
             <svg
               width="16px"
               height="16px"

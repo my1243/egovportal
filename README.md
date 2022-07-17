@@ -29,6 +29,7 @@ To make REACT App use this commands
 ```bash
   npm create-react-app Name_of_App
 ```
+
 And then after you should write your code by changing directory.
 for set-up Tailwind.css use this command
 
@@ -37,12 +38,15 @@ npm install -D tailwindcss postcss autoprefixer
 
 npx tailwind init -p
 ```
-After run this commands we have to change the content of 'tailwind.config.js' to this lines of code 
+
+After run this commands we have to change the content of 'tailwind.config.js' to this lines of code
+
 ```
  content : [
     "./src/ * * / *.{js,jsx,ts,tsx}",
-    ] 
+    ]
 ```
+
 Add these lines to "index.css"
 
 ```
@@ -54,7 +58,6 @@ Add these lines to "index.css"
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./public/images/Screenshot_58.jpg)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](./public//images/Screenshot_53.jpg)

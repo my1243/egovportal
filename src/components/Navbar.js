@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
-
-
 export default function Navbar() {
   let Links = [
     { name: "Home", link: "/home" },
@@ -46,7 +43,10 @@ export default function Navbar() {
           }
         >
           {Links.map((link) => (
-            <li onClick={() => {setNavbarOpen(!navbarOpen)}}
+            <li
+              onClick={() => {
+                setNavbarOpen(!navbarOpen);
+              }}
               key={link.name}
               className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7"
             >
@@ -76,11 +76,30 @@ export default function Navbar() {
               Information <i class="fa-solid fa-caret-down ml-1"></i>
             </a>
             <div class="dropdown-content">
-              <Link to="/information/program-information">
+              <Link
+                onClick={() => {
+                  setNavbarOpen(!navbarOpen);
+                }}
+                to="/information/program-information"
+              >
                 Program Information
               </Link>
-              <Link to="/information/search-subject">Search Subjects</Link>
-              <Link to="/information/my-subject">My Subjects</Link>
+              <Link
+                onClick={() => {
+                  setNavbarOpen(!navbarOpen);
+                }}
+                to="/information/search-subject"
+              >
+                Search Subjects
+              </Link>
+              <Link
+                onClick={() => {
+                  setNavbarOpen(!navbarOpen);
+                }}
+                to="/information/my-subject"
+              >
+                My Subjects
+              </Link>
             </div>
           </li>
 
