@@ -4,11 +4,10 @@ import React from "react";
 const Attend = () => {
     return (
         <>
-
             <div>
-            <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">
-            Attendance To Marks Conversion
-          <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" /></h1>
+                <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">
+                    Attendance To Marks Conversion
+                    <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" /></h1>
                 <div className="lg:mr-12 lg:ml-12 sm:mx-4 mb-12">
                     <table className="table_a rounded-lg overflow-hidden table-auto w-full h-60 shadow-md">
                         <thead className="bg-orange-500 h-12 text-white">

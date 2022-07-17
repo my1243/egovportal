@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
+
+
 export default function Navbar() {
   let Links = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "/home" },
     { name: "Fees Voucher", link: "/fee-voucher" },
     { name: "Exam Results", link: "/result" },
     { name: "Hall Ticket", link: "/hall-ticket" },
@@ -18,7 +21,7 @@ export default function Navbar() {
       <div className="md:flex items-center justify-between py-4 md:px-10 px-4">
         {console.log(location.pathname)}
         <Link
-          to={"/"}
+          to={"/home"}
           class="flex title-font font-bold items-center text-white"
         >
           <svg
@@ -43,7 +46,7 @@ export default function Navbar() {
           }
         >
           {Links.map((link) => (
-            <li
+            <li onClick={() => {setNavbarOpen(!navbarOpen)}}
               key={link.name}
               className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7"
             >
@@ -63,16 +66,15 @@ export default function Navbar() {
             key={"information"}
             className="xl:ml-8 w-fit text-md font-bold text-white xl:my-0 my-7 dropdown"
           >
-            <Link
-              to={"/information"}
-              className={`py-2 px-3 rounded-md transition-all dropbtn duration-200 ease-in hover:opacity-75 hover:bg-orange-600 ${
+            <a
+              className={`cursor-pointer py-2 px-3 rounded-md transition-all dropbtn duration-200 ease-in hover:opacity-75 hover:bg-orange-600 ${
                 location.pathname == "/information"
                   ? "bg-white text-black"
                   : "bg-none"
               }`}
             >
               Information <i class="fa-solid fa-caret-down ml-1"></i>
-            </Link>
+            </a>
             <div class="dropdown-content">
               <Link to="/information/program-information">
                 Program Information
@@ -84,7 +86,7 @@ export default function Navbar() {
 
           <li className="xl:ml-8 text-md font-medium xl:my-0 my-7">
             <button class="inline-flex items-center text-gray-600 bg-gray-100 border-0 py-2 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 hover:bg-orange-500 hover:text-white transition-colors duration-300 ease-linear">
-              Logout
+              <Link to={"/"}>Logout</Link>
               <svg
                 fill="none"
                 stroke="currentColor"
