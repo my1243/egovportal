@@ -4,57 +4,56 @@ const ProgClass = () => {
     return (
         <>
             <div>
-            <h1 className="mx-8 md:mx-12 m-4 text-4xl font-bold pb-2">
-          Program Class Info
-          <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" /></h1>
-                <div className="mx-12 mb-12">
-                    <table className="table_a rounded-lg overflow-hidden border-orange-500 table-auto w-full h-72 shadow-md">
-                        <thead className="bg-orange-500 h-16 text-white">
-                            <tr>
-                                <th className="border border-white">Institute</th>
-                                <th className="border border-white">Program</th>
-                                <th className="border border-white">Class code</th>
-                                <th className="border border-white">From Marks/Cpi</th>
-                                <th className="border border-white">To marks/Cpi</th>
+                <h1 className="mx-2 md:mx-12 m-4 font-bold pb-2">
+                    Program Class Info
+                    <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" /></h1>
+                <div className="tableDiv pb-12 sm:pb-24 sm:pt-0 sm:mx-12">
+                    <table className="table rounded-lg border border-collapse overflow-hidden font-medium w-full shadow-lg text-md sm:text-xl px-2 py-4">
+                        <thead className="bg-orange-500">
+                            <tr className="text-white tr">
+                                <th className="th p-4 res-text-th">Institute</th>
+                                <th className="th res-text-th">Program</th>
+                                <th className="th res-text-th">Class code</th>
+                                <th className="th res-text-th">From Marks/Cpi</th>
+                                <th className="th res-text-th">To marks/Cpi</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="bg-orange-100">
-                                <td data-label="Institute" className="text-center border border-white">Faculty of technology</td>
-                                <td data-label="Program" className="text-center border border-white">Bachelor of technology</td>
-                                <td data-label="Class code" className="text-center border border-white">First class with distinction</td>
-                                <td data-label="From Marks" className="text-center border border-white">7.50</td>
-                                <td data-label="To marks/Cpi" className="text-center border border-white">10.00</td>
+                            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-orange-300">
+                                <td data-label="Institute" className="td rmv-padding p-4 res-text-td">Faculty of technology</td>
+                                <td data-label="Program" className="td res-text-td">Bachelor of technology</td>
+                                <td data-label="Class code" className="td res-text-td">Secondclass with distinction</td>
+                                <td data-label="From Marks" className="td res-text-td">7.50</td>
+                                <td data-label="To marks/Cpi" className="td res-text-td">10.00</td>
                             </tr>
-                            <tr className="bg-orange-300">
-                            <td data-label="Institute" className="text-center border border-white">Faculty of technology</td>
-                                <td data-label="Program" className="text-center border border-white">Bachelor of technology</td>
-                                <td data-label="Class code" className="text-center border border-white">First class with distinction</td>
-                                <td data-label="From Marks" className="text-center border border-white">7.50</td>
-                                <td data-label="To marks/Cpi" className="text-center border border-white">10.00</td>
+                            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-[#ffd1b1]">
+                                <td data-label="Institute" className="td rmv-padding p-4 res-text-td">Faculty of technology</td>
+                                <td data-label="Program" className="td res-text-td">Master of technology</td>
+                                <td data-label="Class code" className="td res-text-td">First class with distinction</td>
+                                <td data-label="From Marks" className="td res-text-td">8.50</td>
+                                <td data-label="To marks/Cpi" className="td res-text-td">10.00</td>
                             </tr>
-                            <tr className="bg-orange-100">
+                            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-orange-300">
+                                <td data-label="Institute" className="td rmv-padding p-4 res-text-td">Faculty of technology</td>
+                                <td data-label="Program" className="td res-text-td">Master of Buisness Administration</td>
+                                <td data-label="Class code" className="td res-text-td">Second class with distinction</td>
+                                <td data-label="From Marks" className="td res-text-td">6.50</td>
+                                <td data-label="To marks/Cpi" className="td res-text-td">10.00</td>
+                            </tr>
+                            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-[#ffd1b1]">
+                                <td data-label="Institute" className="td rmv-padding p-4 res-text-td">Faculty of technology</td>
+                                <td data-label="Program" className="td res-text-td">Bachelor of technology</td>
+                                <td data-label="Class code" className="td res-text-td">Third class with distinction</td>
+                                <td data-label="From marks" className="td res-text-td">5.50</td>
+                                <td data-label="To marks/Cpi" className="td res-text-td">10.00</td>
+                            </tr>
 
-                            <td data-label="Institute"className="text-center border border-white">Faculty of technology</td>
-                                <td data-label="Program" className="text-center border border-white">Bachelor of technology</td>
-                                <td data-label="Class code" className="text-center border border-white">First class with distinction</td>
-                                <td data-label="From Marks" className="text-center border border-white">7.50</td>
-                                <td data-label="To marks/Cpi" className="text-center border border-white">10.00</td>
-                            </tr>
-                            <tr className="bg-orange-300">
-                            <td data-label="Institute" className="text-center border border-white">Faculty of technology</td>
-                                <td data-label="Program" className="text-center border border-white">Bachelor of technology</td>
-                                <td data-label="Class code" className="text-center border border-white">First class with distinction</td>
-                                <td data-label="From marks" className="text-center border border-white">7.50</td>
-                                <td data-label="To marks/Cpi" className="text-center border border-white">10.00</td>
-                            </tr>
-                            
-                            <tr className="bg-orange-100">
-                            <td data-label="Institute" className="text-center border border-white">Faculty of technology</td>
-                                <td data-label="Program" className="text-center border border-white">Bachelor of technology</td>
-                                <td data-label="Class code" className="text-center border border-white">First class with distinction</td>
-                                <td data-label="From Marks" className="text-center border border-white">7.50</td>
-                                <td data-label="To marks/Cpi" className="text-center border border-white">10.00</td>
+                            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-orange-300">
+                                <td data-label="Institute" className="td rmv-padding p-4 res-text-td">Faculty of technology</td>
+                                <td data-label="Program" className="td res-text-td">Master of technology</td>
+                                <td data-label="Class code" className="td res-text-td">First class with distinction</td>
+                                <td data-label="From Marks" className="td res-text-td">9.50</td>
+                                <td data-label="To marks/Cpi" className="td res-text-td">10.00</td>
                             </tr>
                         </tbody>
                     </table>

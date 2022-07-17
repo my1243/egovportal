@@ -4,12 +4,12 @@ const MySub = () => {
   return (
     <>
       <div>
-        <h1 className="mx-2 md:mx-12 m-4 lg:text-4xl text-xl font-bold pb-2">
+        <h1 className="mx-2 md:mx-12 m-4 font-bold pb-2">
           My Subjects
           <hr className="rounded-full shadow-xl mt-2 pt-1 max-w-[40rem] bg-gradient-to-r from-[#f4510b]  to-[#e9d022]" />
         </h1>
-        <div className="font-medium flex md:flex-row flex-col border border-orange-500 md:divide-x-2 divide-orange-500 p-0 md:p-2 shadow-md bg-orange-200 rounded-lg mx-2 md:mx-12">
-          <div className="flex flex-col justify-evenly w-full md:w-1/2 px-4 pt-4 pb-0 md:p-4">
+        <div className="res-text font-medium flex md:flex-row flex-col border border-orange-500 md:divide-x-2 divide-orange-500 p-4 shadow-md bg-orange-200 rounded-lg mx-2 md:mx-1 mb-4">
+          <div className="flex flex-col justify-evenly w-full md:w-1/2 pb-0 md:p-4">
             <div className="flex justify-between">
               <h2>Subject code</h2>
               <h2>SC</h2>
@@ -55,7 +55,7 @@ const MySub = () => {
               <h2>SYLL</h2>
             </div>
           </div>
-          <div className="flex flex-col justify-evenly w-full md:w-1/2 px-4 pt-0 pb-4 md:p-4">
+          <div className="flex flex-col justify-evenly w-full md:w-1/2 md:p-4">
             <div className="flex justify-between">
               <h2>Pr Min pass 1 :</h2>
               <h2>PMP 1</h2>
@@ -99,318 +99,509 @@ const MySub = () => {
           </div>
         </div>
       </div>
-      <div className="my-10 mx-2 md:mx-12">
-        <table className="table_a table-auto rounded-lg overflow-hidden w-full shadow-md">
-          <thead className="bg-orange-500 h-12 text-white">
-            <tr>
-              <th className="border border-white">SC</th>
-              <th className="border border-white">ALIAS</th>
-              <th className="border border-white">PRO</th>
-              <th className="border border-white">RS</th>
-              <th className="border border-white">SESS</th>
-              <th className="border border-white">EL</th>
-              <th className="border border-white">CRE</th>
-              <th className="border border-white">TMP 1</th>
-              <th className="border border-white">TMP 2</th>
-              <th className="border border-white">TT</th>
-              <th className="border border-white">SMP 1</th>
-              <th className="border border-white">SMP 2</th>
-              <th className="border border-white">ST</th>
-              <th className="border border-white">PMP 1</th>
-              <th className="border border-white">PMP 2</th>
-              <th className="border border-white">PT</th>
-              <th className="border border-white">TWMP 1</th>
-              <th className="border border-white">TWMP 2</th>
-              <th className="border border-white">TWT</th>
-              <th className="border border-white">TMP</th>
-              <th className="border border-white">TM</th>
-              <th className="border border-white">SYLL</th>
+      <div className="tableDiv pb-12 sm:pb-24 sm:pt-0 sm:mx-12">
+        <table className="table rounded-lg border border-collapse overflow-hidden font-medium w-full shadow-lg text-md sm:text-xl px-2 py-4">
+          <thead className="bg-orange-500">
+            <tr className="text-white tr">
+              <th className="th p-4 res-text-th">SC</th>
+              <th className="th res-text-th">ALIAS</th>
+              <th className="th res-text-th">PRO</th>
+              <th className="th res-text-th">RS</th>
+              <th className="th res-text-th">SESS</th>
+              <th className="th res-text-th">EL</th>
+              <th className="th res-text-th">CRE</th>
+              <th className="th res-text-th">TMP 1</th>
+              <th className="th res-text-th">TMP 2</th>
+              <th className="th res-text-th">TT</th>
+              <th className="th res-text-th">SMP 1</th>
+              <th className="th res-text-th">SMP 2</th>
+              <th className="th res-text-th">ST</th>
+              <th className="th res-text-th">PMP 1</th>
+              <th className="th res-text-th">PMP 2</th>
+              <th className="th res-text-th">PT</th>
+              <th className="th res-text-th">TWMP 1</th>
+              <th className="th res-text-th">TWMP 2</th>
+              <th className="th res-text-th">TWT</th>
+              <th className="th res-text-th">TMP</th>
+              <th className="th res-text-th">TM</th>
+              <th className="th res-text-th">SYLL</th>
             </tr>
           </thead>
           <tbody>
-            <tr className="bg-orange-100">
-              <td data-label="SC" className="text-center border border-white">
+            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-orange-300">
+              <td data-label="SC" className="td rmv-padding p-4 res-text-td">
                 AF-410
               </td>
               <td
                 data-label="ALIAS"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 FMA
               </td>
-              <td data-label="PRO" className="text-center border border-white">
+              <td data-label="PRO" className="td res-text-td">
                 BT
               </td>
-              <td data-label="RS" className="text-center border border-white">
+              <td data-label="RS" className="td res-text-td">
                 A
               </td>
-              <td data-label="SESS" className="text-center border border-white">
+              <td data-label="SESS" className="td res-text-td">
                 4
               </td>
-              <td data-label="EL" className="text-center border border-white">
+              <td data-label="EL" className="td res-text-td">
                 NO
               </td>
-              <td data-label="CRE" className="text-center border border-white">
+              <td data-label="CRE" className="td res-text-td">
                 3
               </td>
               <td
                 data-label="TMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 24
               </td>
               <td
                 data-label="TMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 18
               </td>
-              <td data-label="TT" className="text-center border border-white">
+              <td data-label="TT" className="td res-text-td">
                 60
               </td>
               <td
                 data-label="SMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 16
               </td>
               <td
                 data-label="SMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 12
               </td>
-              <td data-label="ST" className="text-center border border-white">
+              <td data-label="ST" className="td res-text-td">
                 40
               </td>
               <td
                 data-label="PMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
               <td
                 data-label="PMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
-              <td data-label="PT" className="text-center border border-white">
+              <td data-label="PT" className="td res-text-td">
                 --
               </td>
               <td
                 data-label="TWMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
               <td
                 data-label="TWMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
-              <td data-label="TWT" className="text-center border border-white">
+              <td data-label="TWT" className="td res-text-td">
                 --
               </td>
-              <td data-label="TMP" className="text-center border border-white">
+              <td data-label="TMP" className="td res-text-td">
                 45
               </td>
-              <td data-label="TM" className="text-center border border-white">
+              <td data-label="TM" className="td res-text-td">
                 100
               </td>
-              <td data-label="SYLL" className="text-center border border-white">
+              <td data-label="SYLL" className="td res-text-td">
                 ---
               </td>
             </tr>
-            <tr className="bg-orange-300">
-              <td data-label="SC" className="text-center border border-white">
-                AF-410
+            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-[#ffd1b1]">
+              <td data-label="SC" className="td rmv-padding p-4 res-text-td">
+                AF-709
               </td>
               <td
                 data-label="ALIAS"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                FMA
+                CCN
               </td>
-              <td data-label="PRO" className="text-center border border-white">
-                BT
+              <td data-label="PRO" className="td res-text-td">
+                CD
               </td>
-              <td data-label="RS" className="text-center border border-white">
-                A
+              <td data-label="RS" className="td res-text-td">
+                D
               </td>
-              <td data-label="SESS" className="text-center border border-white">
-                4
+              <td data-label="SESS" className="td res-text-td">
+                3
               </td>
-              <td data-label="EL" className="text-center border border-white">
+              <td data-label="EL" className="td res-text-td">
                 NO
               </td>
-              <td data-label="CRE" className="text-center border border-white">
-                3
+              <td data-label="CRE" className="td res-text-td">
+                7
               </td>
               <td
                 data-label="TMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                24
+                23
               </td>
               <td
                 data-label="TMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                18
+                12
               </td>
-              <td data-label="TT" className="text-center border border-white">
+              <td data-label="TT" className="td res-text-td">
                 60
               </td>
               <td
                 data-label="SMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                16
+                14
               </td>
               <td
                 data-label="SMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                12
+                16
               </td>
-              <td data-label="ST" className="text-center border border-white">
+              <td data-label="ST" className="td res-text-td">
                 40
               </td>
               <td
                 data-label="PMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
               <td
                 data-label="PMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
-              <td data-label="PT" className="text-center border border-white">
+              <td data-label="PT" className="td res-text-td">
                 --
               </td>
               <td
                 data-label="TWMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
               <td
                 data-label="TWMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
-              <td data-label="TWT" className="text-center border border-white">
+              <td data-label="TWT" className="td res-text-td">
                 --
               </td>
-              <td data-label="TMP" className="text-center border border-white">
-                45
+              <td data-label="TMP" className="td res-text-td">
+                40
               </td>
-              <td data-label="TM" className="text-center border border-white">
+              <td data-label="TM" className="td res-text-td">
                 100
               </td>
-              <td data-label="SYLL" className="text-center border border-white">
+              <td data-label="SYLL" className="td res-text-td">
                 ---
               </td>
             </tr>
-            <tr className="bg-orange-100">
-              <td data-label="SC" className="text-center border border-white">
-                AF-410
+            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-orange-300">
+              <td data-label="SC" className="td rmv-padding p-4 res-text-td">
+                AF-602
               </td>
 
               <td
                 data-label="ALIAS"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                FMA
+                MAPI
               </td>
-              <td data-label="PRO" className="text-center border border-white">
-                BT
+              <td data-label="PRO" className="td res-text-td">
+                KL
               </td>
-              <td data-label="RS" className="text-center border border-white">
-                A
+              <td data-label="RS" className="td res-text-td">
+                S
               </td>
-              <td data-label="SESS" className="text-center border border-white">
+              <td data-label="SESS" className="td res-text-td">
                 4
               </td>
-              <td data-label="EL" className="text-center border border-white">
+              <td data-label="EL" className="td res-text-td">
                 NO
               </td>
-              <td data-label="CRE" className="text-center border border-white">
-                3
+              <td data-label="CRE" className="td res-text-td">
+                6
               </td>
               <td
                 data-label="TMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                24
+                28
               </td>
               <td
                 data-label="TMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                18
+                14
               </td>
-              <td data-label="TT" className="text-center border border-white">
+              <td data-label="TT" className="td res-text-td">
                 60
               </td>
               <td
                 data-label="SMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                16
+                13
               </td>
               <td
                 data-label="SMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
-                12
+                16
               </td>
-              <td data-label="ST" className="text-center border border-white">
+              <td data-label="ST" className="td res-text-td">
                 40
               </td>
               <td
                 data-label="PMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
               <td
                 data-label="PMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
-              <td data-label="PT" className="text-center border border-white">
+              <td data-label="PT" className="td res-text-td">
                 --
               </td>
               <td
                 data-label="TWMP 1"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
               <td
                 data-label="TWMP 2"
-                className="text-center border border-white"
+                className="td res-text-td"
               >
                 --
               </td>
-              <td data-label="TWT" className="text-center border border-white">
+              <td data-label="TWT" className="td res-text-td">
                 --
               </td>
-              <td data-label="TMP" className="text-center border border-white">
+              <td data-label="TMP" className="td res-text-td">
                 45
               </td>
-              <td data-label="TM" className="text-center border border-white">
+              <td data-label="TM" className="td res-text-td">
                 100
               </td>
-              <td data-label="SYLL" className="text-center border border-white">
+              <td data-label="SYLL" className="td res-text-td">
+                ---
+              </td>
+            </tr>
+            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-[#ffd1b1]">
+              <td data-label="SC" className="td rmv-padding p-4 res-text-td">
+                AF-290
+              </td>
+              <td
+                data-label="ALIAS"
+                className="td res-text-td"
+              >
+                DSA
+              </td>
+              <td data-label="PRO" className="td res-text-td">
+                AD
+              </td>
+              <td data-label="RS" className="td res-text-td">
+                A
+              </td>
+              <td data-label="SESS" className="td res-text-td">
+                4
+              </td>
+              <td data-label="EL" className="td res-text-td">
+                NO
+              </td>
+              <td data-label="CRE" className="td res-text-td">
+                3
+              </td>
+              <td
+                data-label="TMP 1"
+                className="td res-text-td"
+              >
+                24
+              </td>
+              <td
+                data-label="TMP 2"
+                className="td res-text-td"
+              >
+                18
+              </td>
+              <td data-label="TT" className="td res-text-td">
+                60
+              </td>
+              <td
+                data-label="SMP 1"
+                className="td res-text-td"
+              >
+                16
+              </td>
+              <td
+                data-label="SMP 2"
+                className="td res-text-td"
+              >
+                12
+              </td>
+              <td data-label="ST" className="td res-text-td">
+                40
+              </td>
+              <td
+                data-label="PMP 1"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td
+                data-label="PMP 2"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td data-label="PT" className="td res-text-td">
+                --
+              </td>
+              <td
+                data-label="TWMP 1"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td
+                data-label="TWMP 2"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td data-label="TWT" className="td res-text-td">
+                --
+              </td>
+              <td data-label="TMP" className="td res-text-td">
+                45
+              </td>
+              <td data-label="TM" className="td res-text-td">
+                100
+              </td>
+              <td data-label="SYLL" className="td res-text-td">
+                ---
+              </td>
+            </tr>
+            <tr className="tr px-3 py-2 font-medium text-center text-lg cursor-pointer even:bg-[#ffd1b1] bg-orange-300">
+              <td data-label="SC" className="td rmv-padding p-4 res-text-td">
+                AF-305
+              </td>
+
+              <td
+                data-label="ALIAS"
+                className="td res-text-td"
+              >
+                CO
+              </td>
+              <td data-label="PRO" className="td res-text-td">
+                BL
+              </td>
+              <td data-label="RS" className="td res-text-td">
+                A
+              </td>
+              <td data-label="SESS" className="td res-text-td">
+                4
+              </td>
+              <td data-label="EL" className="td res-text-td">
+                NO
+              </td>
+              <td data-label="CRE" className="td res-text-td">
+                3
+              </td>
+              <td
+                data-label="TMP 1"
+                className="td res-text-td"
+              >
+                24
+              </td>
+              <td
+                data-label="TMP 2"
+                className="td res-text-td"
+              >
+                18
+              </td>
+              <td data-label="TT" className="td res-text-td">
+                60
+              </td>
+              <td
+                data-label="SMP 1"
+                className="td res-text-td"
+              >
+                16
+              </td>
+              <td
+                data-label="SMP 2"
+                className="td res-text-td"
+              >
+                12
+              </td>
+              <td data-label="ST" className="td res-text-td">
+                40
+              </td>
+              <td
+                data-label="PMP 1"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td
+                data-label="PMP 2"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td data-label="PT" className="td res-text-td">
+                --
+              </td>
+              <td
+                data-label="TWMP 1"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td
+                data-label="TWMP 2"
+                className="td res-text-td"
+              >
+                --
+              </td>
+              <td data-label="TWT" className="td res-text-td">
+                --
+              </td>
+              <td data-label="TMP" className="td res-text-td">
+                45
+              </td>
+              <td data-label="TM" className="td res-text-td">
+                100
+              </td>
+              <td data-label="SYLL" className="td res-text-td">
                 ---
               </td>
             </tr>
